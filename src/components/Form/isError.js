@@ -1,0 +1,1 @@
+export default errorObj => !!Object.keys(errorObj).length;
