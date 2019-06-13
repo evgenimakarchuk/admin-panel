@@ -23,7 +23,6 @@ app.get('/users', (req, res) => {
     } = req.query || {};
     
     const items = users.slice(+offset, +(offset) + (+limit));
-    console.log(items.length)
     res.send({
         items,
         total: users.length,

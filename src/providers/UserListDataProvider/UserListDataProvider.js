@@ -55,7 +55,6 @@ export const UserListDataProvider = ({
         }
 
         fetchData();
-        return () => cleanUp();
     }, [params.offset]);
     // const[]
     
